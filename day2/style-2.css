@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #e5eaf1;
+}
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.card {
+    display: flex;
+    margin-bottom:20px ;
+    background-color: white;
+    padding:10px;
+    border-radius: 15px;
+    box-shadow:  0 1px 30px rgba(0, 0, 0, 0.1);
+    gap: 40px;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+.left {
+    flex: 1;
+    min-width: 300px;
+}
+
+.left h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.left p {
+    font-size: 16px;
+    
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.button {
+    margin-bottom: 20px;
+}
+
+buttons button {
+    padding: 10px 20px;
+    background-color: #121826;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.button a {
+    color: #121826;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.medsos img {
+    width: 35px;
+    margin-right: 14px;
+    cursor: pointer;
+}
+.right {
+    text-align: center;
+}
+.right img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.right h3 {
+    font-weight: bold;
+    margin: 10 0 5px 0;
+}
+.right p {
+    color: #666;
+    font-size: 14px;
+}
