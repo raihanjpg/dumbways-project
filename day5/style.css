@@ -2,13 +2,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     color: #333;
-    background:linear-gradient(to bottom, #e0e0e0 0%, #e0e0e0 50%, #f8f8f8 50%);
+    background:linear-gradient(to bottom, #e0e0e0 18%, #e0e0e0 18%, #f8f8f8 18%);
 }
 
 .container{
     max-width: 500px;
     margin: auto;
     padding: 30px;
+    display: grid;
+    
 }
 
 .web-container {
@@ -49,6 +51,7 @@ input[type="date"]:focus::-webkit-datetime-edit {
 h1, h2 {
     text-align: center;
     font-weight: bold;
+    margin-top: 40px;
 }
 .label {
     font-weight: bold;  
@@ -163,3 +166,17 @@ project-list {
     flex-wrap: wrap;
 }
 
+
+.projectCard {
+    background: white;
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 8px;    
+     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+     
+}
+
+.projectCard img {
+    width: 100%;
+    border-radius: 4px;
+}
