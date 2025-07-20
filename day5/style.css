@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     color: #333;
-    background:linear-gradient(to bottom, #e0e0e0 18%, #e0e0e0 18%, #f8f8f8 18%);
+    background:linear-gradient(to bottom, #e0e0e0 23%, #e0e0e0 23%, #f8f8f8 23%);
 }
 
 .container{
@@ -62,7 +62,6 @@ h1, h2 {
     color: #605c5c;
     display: flex;
     gap: 10px;  
-    width: 50%;
     margin-top: 20px;
 }
 
@@ -150,6 +149,8 @@ input [type="date"], textarea, select
 
 .card h3 {
     margin: 10px 0 15px;
+    font-weight: bold;
+   
 }
 
 .tech-icons {
@@ -172,7 +173,9 @@ project-list {
     padding: 16px;
     margin-bottom: 20px;
     border-radius: 8px;    
-     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+    
      
 }
 
@@ -180,3 +183,5 @@ project-list {
     width: 100%;
     border-radius: 4px;
 }
+
+
